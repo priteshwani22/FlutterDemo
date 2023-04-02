@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 //STLE Enter
 class HomePage extends StatelessWidget {
-  final int days = 30;
-  final String name = "Pritesh";
+  final String Fname = "Pritesh";
+  final String Lname = "Wani";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
           child: Container(
-        child: Text("Welcome to $days and $name"),
+        child: Text("Welcome to $Fname $Lname"),
       )),
       drawer: Drawer(),
     );
